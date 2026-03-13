@@ -4,18 +4,15 @@
 export default function Header() {
   return (
     <>
-      <section className="flex  justify-between border border-sky-100 sticky">
+      <div
+        className="flex justify-between border border-gray-400
+       sticky p-1.5"
+      >
         <div className="">
-    
-        <div className="">
-          <div>WriteDown</div>
+          <img src="./WriteDown-logo.png" alt="Write down logo" className="" />
         </div>
-        </div>
-
-        <div className="">
-          <input type="search" className="border bg-blue-200 rounded" />
-        </div>
-      </section>
+       
+      </div>
     </>
   );
 }
